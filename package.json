@@ -1,0 +1,25 @@
+{
+  "name": "netmask",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "connect":"tsc && node dist/connect_wallet.js",
+    "start": "tsc && node dist/create_account.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/clipboardy": "^2.0.1",
+    "@types/generate-password": "^1.5.1",
+    "@types/puppeteer": "^7.0.4",
+    "clipboardy": "^3.0.0",
+    "generate-password": "^1.7.0",
+    "puppeteer": "^21.1.0",
+    "puppeteer-extra": "^3.3.6",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  }
+}
